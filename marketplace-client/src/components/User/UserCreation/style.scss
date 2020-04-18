@@ -1,0 +1,29 @@
+.profile-background {
+  background-color: white;
+}
+
+.user-avatar {
+  height: 30vh;
+  margin-top: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 50%, rgba(30, 181, 178, 1) 50%);
+
+  img {
+    border-radius: 100px;
+    width: 45%;
+    height: 78%;
+    border: solid 2px white;
+  }
+}
+
+.avatar-edit-button {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 8vh;
+ margin-top: -30px;
+}
+

@@ -1,0 +1,45 @@
+.signupButtons {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.logo {
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/marketplace-commerce.appspot.com/o/images%2FRY_Logomark_White.png?alt=media&token=de37adf7-1f38-43dc-8d5e-751da215139e);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 70%;
+  height: 30%;
+}
+
+.body {
+  background-color: #1eb5b2;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.body-loggedin {
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/marketplace-commerce.appspot.com/o/images%2Fjake-blucker-tMzCrBkM99Y-unsplash%20copy.jpg?alt=media&token=ac995f29-0464-423d-b987-978a2ebe9e84);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

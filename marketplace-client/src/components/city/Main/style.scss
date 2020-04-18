@@ -1,0 +1,116 @@
+.main {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.banner {
+  height: 93vh;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/marketplace-commerce.appspot.com/o/images%2Fimage-banner-edited.jpg?alt=media&token=9845d4a8-9e4c-41c6-9cd5-8cf6ce7b55ad);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4vh;
+  h1 {
+    font-weight: 800;
+    color: white;
+  }
+  p {
+    padding: 2vh;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+  }
+}
+
+.shortcuts {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  h1 {
+    padding: 0vh 5vh;
+    font-size: 1.8em;
+    font-weight: 500;
+    color: black;
+  }
+}
+
+.shortcuts-tracks {
+  height: 21vh;
+  margin: 2.2vh;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/marketplace-commerce.appspot.com/o/images%2Fimage-experiences.jpg?alt=media&token=45956009-dc46-45a9-b6aa-9d553a26f25e);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2vh;
+  text-align: left;
+  color: white;
+  h1 {
+    padding: 0;
+    color: white;
+  }
+}
+.shortcuts-experiences {
+  height: 21vh;
+  margin: 2.2vh;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/marketplace-commerce.appspot.com/o/images%2Ftracks-image.jpg?alt=media&token=aedfa3ae-d2ad-4184-a9f9-7cb4c788d3d7);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2vh;
+  text-align: left;
+  color: white;
+  h1 {
+    padding: 0;
+    color: white;
+  }
+}
+.shortcuts-sidetrips {
+  height: 21vh;
+  margin: 2.2vh;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/marketplace-commerce.appspot.com/o/images%2Fimage-sidetrips.jpg?alt=media&token=ffe76405-faf3-4943-84e3-b5b64abc292e);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2vh;
+  text-align: left;
+  color: white;
+  h1 {
+    padding: 0;
+    color: white;
+  }
+}
+.shortcuts-amenities {
+  height: 21vh;
+  margin: 2.2vh;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/marketplace-commerce.appspot.com/o/images%2Famenties-image.jpg?alt=media&token=8fe21a4e-db07-4133-9256-26cb7e79966d);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2vh;
+  text-align: left;
+  color: white;
+  h1 {
+    padding: 0;
+    color: white;
+  }
+}
